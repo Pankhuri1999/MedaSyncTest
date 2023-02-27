@@ -19,7 +19,7 @@ for i in lines:
 	if "Patient" in tmpString:
 		patientList.append(tmpString[1])
 
-# iterating over each unique patiend like Joh,n Anne, Polly
+# iterating over each unique patiens like John Anne, Polly
 for i in patientList:
 	cnt = 0
 	start = 0
